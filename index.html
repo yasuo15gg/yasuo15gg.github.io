@@ -60,80 +60,101 @@
           ecosystem and increased demand for satellite data utilization.
         </p>
       </div>
-
-      <div class="section">
+      <section class="section" id="participants">
         <h2>Participants</h2>
-        <h3>Japan:</h3>
-        <ul>
-          <li>Embassy of Japan</li>
-          <li>
-            Government officials (including METI Director-General or Deputy
-            Director-General)
-          </li>
-          <li>JAXA</li>
-          <li>
-            Academia (UNISEC, Kyushu Institute of Technology, Yamaguchi
-            University, others)
-          </li>
-          <li>
-            Private companies (TBD):
-            <ol>
-              <li>NEC (LOTUSat)</li>
-              <li>IHI Aerospace (Rocket / Satellite Components)</li>
-              <li>Ocean Solution Technology (Ocean Monitoring)</li>
-              <li>Japan Space Systems (Ocean Monitoring)</li>
-              <li>Synspective (Disaster Monitoring)</li>
-              <li>Axelspace (Satellite Development / Data Solutions)</li>
-              <li>IHI Jet Service (Maritime Surveillance)</li>
-              <li>Green Carbon (Rice Paddy Methane / Carbon Credit)</li>
-              <li>Faeger (Rice Paddy Methane / Carbon Credit)</li>
-              <li>Space Shift (AI-based Satellite Data Analytics)</li>
-              <li>Tellus</li>
-              <li>ArkEdge Space (IoT / Satellite Constellation)</li>
-              <li>(UAV/Drone companies)</li>
-            </ol>
-          </li>
-        </ul>
 
-        <h3>Vietnam:</h3>
-        <ul>
-          <li>Ministry of Science and Technology (MOST):</li>
-            <ol>
-              <li>Department of International Cooperation</li>
-              <li>Department of High Technology</li>
-            </ol>
-          <li>Ministry of Agriculture and Environment (MAE)</li>
-          <ol>
-              <li>Centre for Informatics and Statistics</li>
-              <li>Forestry Inventory and Planning Institutes (FIPI)</li>
-              <li>Department of National Remote sensing</li>
-              <li>Department of Survey, Mapping and Geographic Information</li>
-            </ol>
-          <li>Vietnam Academy of Science and Technology (VAST)</li>
-          <ol>
-              <li>Department of International Cooperation</li>
-              <li>Institutes of Geological Sciences</li>
-              <li>Institute of Marine Geology and Geophysics</li>
-              <li>Institute of Earth Science</li>
-            </ol>
-          <li>Universities</li>
-          <ol>
-              <li>University of Economics - Vietnam National University, Hanoi</li>
-              <li>USTH - Vietnam French University</li>
-              <li>Hanoi National University of Education</li>
-              <li>Hanoi University of Mining and Geology</li>
-            </ol>
-            <li>Industries</li>
-          <ol>
-              <li>Vietnam Natural Resources and Environment Corporation</li>
-              <li>Vegastar</li>
-              <li>Spatial Decisions Vietnam</li>
-              <li>Viettel Hi Technology Industries Corporation</li>
-              <li>Crystal Optics Inc.</li>
-              <li>Yumoto VietNam</li>
-            </ol>
-        </ul>
-      </div>
+        <div class="participant-controls">
+          <div class="participant-search">
+            <input
+              id="participant-search"
+              type="search"
+              placeholder="Search participants..."
+              aria-label="Search participants"
+            />
+          </div>
+        </div>
+
+        <div class="participants-grid">
+          <article class="participant-card" data-country="japan">
+            <header class="card-header">
+              <h3>Japan</h3>
+            </header>
+
+            <div class="card-body">
+              <section class="participant-group">
+                <h4 class="collapsible-header">Government</h4>
+                <ul class="collapsible-body">
+                  <li>Embassy of Japan</li>
+                  <li>Government officials (METI Director-General / Deputy)</li>
+                </ul>
+              </section>
+
+              <section class="participant-group">
+                <h4 class="collapsible-header">Agencies & Academia</h4>
+                <ul class="collapsible-body">
+                  <li>JAXA</li>
+                  <li>UNISEC</li>
+                  <li>Kyushu Institute of Technology</li>
+                  <li>Yamaguchi University</li>
+                </ul>
+              </section>
+
+              <section class="participant-group">
+                <h4 class="collapsible-header">Private companies (TBD)</h4>
+                <ul class="collapsible-body">
+                  <li>NEC (LOTUSat)</li>
+                  <li>IHI Aerospace</li>
+                  <li>Ocean Solution Technology</li>
+                  <li>Japan Space Systems</li>
+                  <li>Synspective</li>
+                  <li>Axelspace</li>
+                  <li>Space Shift</li>
+                  <li>Tellus</li>
+                  <li>ArkEdge Space</li>
+                </ul>
+              </section>
+            </div>
+          </article>
+
+          <article class="participant-card" data-country="vietnam">
+            <header class="card-header">
+              <h3>Vietnam</h3>
+            </header>
+
+            <div class="card-body">
+              <section class="participant-group">
+                <h4 class="collapsible-header">Government</h4>
+                <ul class="collapsible-body">
+                  <li>Ministry of Science and Technology (MOST)</li>
+                  <li>Ministry of Agriculture and Environment (MAE)</li>
+                  <li>Vietnam Academy of Science and Technology (VAST)</li>
+                </ul>
+              </section>
+
+              <section class="participant-group">
+                <h4 class="collapsible-header">Universities</h4>
+                <ul class="collapsible-body">
+                  <li>University of Economics - VNU Hanoi</li>
+                  <li>USTH - Vietnam French University</li>
+                  <li>Hanoi National University of Education</li>
+                  <li>Hanoi University of Mining and Geology</li>
+                </ul>
+              </section>
+
+              <section class="participant-group">
+                <h4 class="collapsible-header">Industry</h4>
+                <ul class="collapsible-body">
+                  <li>Vegastar</li>
+                  <li>VegaCosmos</li>
+                  <li>Spatial Decisions Vietnam</li>
+                  <li>Viettel Hi Technology</li>
+                  <li>Crystal Optics Inc.</li>
+                </ul>
+              </section>
+            </div>
+          </article>
+        </div>
+      </section>
 
       <div class="section">
         <h2>Partners</h2>
@@ -142,45 +163,45 @@
             <h3>Japan</h3>
             <div class="logo-row">
               <a
-                href="https://www.google.com"
+                href="https://global.jaxa.jp/about/jaxa/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
-                  alt="Logo 1"
-                  class="logo-placeholder"
-                />
-              </a>
-              <a
-                href="https://www.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/jp/jaxa.png"
                   alt="Logo 2"
                   class="logo-placeholder"
                 />
               </a>
               <a
-                href="https://www.google.com"
+                href="https://www.crystal-opt.co.jp/global/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/jp/cryop.png"
+                  alt="Logo 1"
+                  class="logo-placeholder"
+                />
+              </a>
+              <a
+                href="https://unisec.jp/unisec-en-home"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./icons/jp/uniseclogo_sns.png"
                   alt="Logo 3"
                   class="logo-placeholder"
                 />
               </a>
               <a
-                href="https://www.google.com"
+                href="https://www.kyutech.ac.jp/english/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/jp/kyutech.png"
                   alt="Logo 4"
                   class="logo-placeholder"
                 />
@@ -188,46 +209,116 @@
             </div>
             <div class="logo-row">
               <a
-                href="https://www.google.com"
+                href="https://www.yamaguchi-u.ac.jp/med/en/index.html"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/jp/yamaguchi.png"
                   alt="Logo 1"
                   class="logo-placeholder"
                 />
               </a>
               <a
-                href="https://www.google.com"
+                href="https://vn.nec.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/jp/NEC_logo.svg.png"
                   alt="Logo 2"
                   class="logo-placeholder"
                 />
               </a>
               <a
-                href="https://www.google.com"
+                href="https://www.ihi.co.jp/ia/en/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/jp/ihi.png"
                   alt="Logo 3"
                   class="logo-placeholder"
                 />
               </a>
               <a
-                href="https://www.google.com"
+                href="https://www.ocean5.co.jp/home-en/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/jp/ost.png"
                   alt="Logo 4"
+                  class="logo-placeholder"
+                />
+              </a>
+            </div>
+            <div class="logo-row">
+              <a
+                href="https://www.jspacesystems.or.jp/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./icons/jp/JSS.png"
+                  alt="Logo 1"
+                  class="logo-placeholder"
+                />
+              </a>
+              <a
+                href="https://synspective.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./icons/jp/syn.png"
+                  alt="Logo 2"
+                  class="logo-placeholder"
+                />
+              </a>
+              <a
+                href="https://www.axelspace.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./icons/jp/axel.png"
+                  alt="Logo 3"
+                  class="logo-placeholder"
+                />
+              </a>
+              <a
+                href="https://www.spcsft.com/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./icons/jp/spaceshift.png"
+                  alt="Logo 4"
+                  class="logo-placeholder"
+                />
+              </a>
+            </div>
+            <div class="logo-row">
+              <a
+                href="https://www.tellusxdp.com/ja/about/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./icons/jp/tellus_logo.png"
+                  alt="Logo 1"
+                  class="logo-placeholder"
+                />
+              </a>
+              <a
+                href="https://arkedgespace.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./icons/jp/ark.png"
+                  alt="Logo 2"
                   class="logo-placeholder"
                 />
               </a>
@@ -271,12 +362,12 @@
                 />
               </a>
               <a
-                href="https://www.google.com"
+                href="https://viettelhightech.vn/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/vn/viettel.png"
                   alt="Logo 4"
                   class="logo-placeholder"
                 />
@@ -284,45 +375,91 @@
             </div>
             <div class="logo-row">
               <a
-                href="https://www.google.com"
+                href="https://vast.gov.vn/web/vietnam-academy-of-science-and-technology/institutes1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/vn/vast.png"
                   alt="Logo 1"
                   class="logo-placeholder"
                 />
               </a>
               <a
-                href="https://www.google.com"
+                href="https://english.ueb.edu.vn/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/vn/ueb.png"
                   alt="Logo 2"
                   class="logo-placeholder"
                 />
               </a>
               <a
-                href="https://www.google.com"
+                href="https://usth.edu.vn/en/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/vn/usth.png"
                   alt="Logo 3"
                   class="logo-placeholder"
                 />
               </a>
               <a
-                href="https://www.google.com"
+                href="https://english.hnue.edu.vn/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/1200px-2021_Facebook_icon.svg.png"
+                  src="./icons/vn/hnue.png"
+                  alt="Logo 4"
+                  class="logo-placeholder"
+                />
+              </a>
+            </div>
+            <div class="logo-row">
+              <a
+                href="https://humg.edu.vn/en/Pages/home.aspx"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./icons/vn/mdc.png"
+                  alt="Logo 1"
+                  class="logo-placeholder"
+                />
+              </a>
+              <a
+                href="https://spatialdecisions.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./icons/vn/SDonLightBG.png"
+                  alt="Logo 2"
+                  class="logo-placeholder"
+                />
+              </a>
+              <a
+                href="https://ctgroupvietnam.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./icons/vn/ctgroup.png"
+                  alt="Logo 3"
+                  class="logo-placeholder"
+                />
+              </a>
+              <a
+                href="https://yumotovn.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./icons/vn/yumoto.png"
                   alt="Logo 4"
                   class="logo-placeholder"
                 />
@@ -339,7 +476,9 @@
             <h3>Japan</h3>
             <address class="contact-info">
               <b>Embassy / Office: Embassy of Japan</b><br />
-              Email: <a href="mailto:contact@japan.example">contact@japan.example</a><br />
+              Email:
+              <a href="mailto:contact@japan.example">contact@japan.example</a
+              ><br />
               Phone: <a href="tel:+81123456789">+81 12-3456-789</a>
             </address>
           </div>
@@ -347,13 +486,16 @@
           <div class="partner-column">
             <h3>Vietnam</h3>
             <address class="contact-info">
-              <b>Department of High Technology</b><br />
-              Email: <a href="mailto:vtlanh@most.gov.vn">vtlanh@most.gov.vn</a><br />
-              Phone: <a href="tel:+84982765384">+84 98 276 5384</a>
+              <b>VietNam National Space Center (VNSC)</b><br />
+              Phan Ngoc Phuong Linh<br />
+              Email: <a href="mailto:pnplinh@vnsc.org.vn">pnplinh@vnsc.org.vn</a
+              ><br />
+              Phone: <a href="tel:+84982765384">+84 98 276 5300</a>
             </address>
           </div>
         </div>
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>
